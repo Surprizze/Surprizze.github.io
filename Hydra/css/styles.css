@@ -609,6 +609,8 @@ footer
   width: 170px; }
 
 .footer {
+  max-width: 1300px;
+  margin: auto;
   background-image: url(../imgs/bg_footer.png), url(../imgs/vertical_line.png), url(../imgs/vertical_line.png), url(../imgs/vertical_line.png);
   background-size: 100%, 0.4%, 0.4%, 0.4%;
   background-position: 0 -150px, 270px 105px, 600px 105px, 900px 105px;
