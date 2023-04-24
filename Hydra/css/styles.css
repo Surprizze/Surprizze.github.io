@@ -74,6 +74,8 @@ global classes
 
 a {
   transition: 2s ease; }
+  a:link {
+    color: white; }
 
 a.transporent_button {
   padding: 12px 25px;
@@ -205,7 +207,8 @@ hero section
   .feedback img {
     position: absolute;
     top: 30px;
-    left: 472px; }
+    left: 36%;
+    right: 36%; }
   .feedback a {
     color: white; }
   .feedback p {
@@ -216,7 +219,7 @@ hero section
     margin-top: 45px;
     padding-left: 50px;
     margin-left: 50px;
-    width: 360px;
+    width: 35%;
     background-image: url(../imgs/geolocation.png);
     background-size: 60px;
     background-position: -2px 8px;
@@ -225,10 +228,10 @@ hero section
       font-size: 14px;
       margin-left: 10px; }
   .feedback .phone {
-    margin-left: 110px;
+    margin-left: 10px;
     padding-left: 75px;
     margin-top: 45px;
-    width: 200px;
+    width: 20%;
     background-image: url(../imgs/phone_call.png);
     background-size: 60px;
     background-position: 0px 12px;
@@ -241,7 +244,8 @@ hero section
     padding-left: 50px;
     padding-right: 50px;
     text-align: end;
-    width: 330px;
+    width: 30%;
+    margin-left: -60px;
     background-image: url(../imgs/mail.png);
     background-size: 60px;
     background-position: 190px 12px;
@@ -354,7 +358,7 @@ cards section
     margin: 0 55px; }
 
 .cards .card_position {
-  max-width: 1300px;
+  width: 1300px;
   margin: auto; }
 
 /************************
@@ -397,16 +401,16 @@ technologies and hardware
   margin: 0 60px; }
 
 .sponsors img:nth-of-type(1) {
-  width: 150px; }
+  width: 10%; }
 
 .sponsors img:nth-of-type(2) {
-  width: 200px; }
+  width: 15%; }
 
 .sponsors img:nth-of-type(3) {
-  width: 200px; }
+  width: 15%; }
 
 .sponsors img:nth-of-type(4) {
-  width: 200px; }
+  width: 15%; }
 
 a.ar_down:hover {
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
@@ -427,7 +431,7 @@ how we build
   text-transform: uppercase; }
 
 .how_we_build p {
-  max-width: 650px;
+  max-width: 50%;
   line-height: 23px;
   margin-top: -10px;
   margin-right: 50px; }
@@ -656,7 +660,7 @@ footer li {
   padding-top: 45px;
   clear: both; }
 
-@media (max-width: 1430px) {
+@media (max-width: 1350px) {
   body {
     color: white;
     font-size: 30px; }
